@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="48dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <SearchView
+        android:layout_width="238dp"
+        android:layout_height="29dp"
+        android:background="@drawable/create_new"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="28dp"
+        android:layout_height="24dp"
+        android:background="@drawable/cart"
+        tools:layout_editor_absoluteX="364dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="29dp"
+        android:layout_height="26dp"
+        android:background="@drawable/baseline_star_24"
+        tools:layout_editor_absoluteX="334dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="410dp"
+        android:layout_height="8dp"
+        app:srcCompat="@drawable/line"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="54dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
