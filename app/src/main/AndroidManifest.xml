@@ -13,8 +13,31 @@
         android:theme="@style/Theme.Formosity"
         tools:targetApi="31">
         <activity
+            android:name=".update_account"
+            android:exported="false" />
+        <activity
+            android:name=".account_page"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage3"
+            android:exported="false"
+            android:label="@string/title_activity_home_page3"
+            android:theme="@style/Theme.Formosity.NoActionBar" />
+        <activity
+            android:name=".ProductPage"
+            android:exported="false" />
+        <activity
             android:name=".HomePage"
             android:exported="false" />
+        <activity
+            android:name=".HomePage_2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".signin__login"
             android:exported="false" />
@@ -26,13 +49,7 @@
             android:exported="false" />
         <activity
             android:name=".CreateAccount"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".loginPage"
             android:exported="true" />

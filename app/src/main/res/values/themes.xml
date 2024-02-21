@@ -1,11 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Formosity" parent="Theme.Material3.Light.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-        <item name="colorPrimary">#A86868</item>
-        <item name="colorPrimaryVariant">#FFFFFF</item>
-        <item name="colorOnPrimary">@color/white</item>
+    <style name="Base.Theme.Formosity" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/red</item>
         <item name="colorAccent">#FFFFFF</item>
 
         <item name="colorSecondary">#A86868</item>
@@ -14,4 +12,13 @@
     </style>
 
     <style name="Theme.Formosity" parent="Base.Theme.Formosity" />
+    <style name="Theme.Formosity.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Formosity.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Formosity.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>
